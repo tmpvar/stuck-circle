@@ -1,0 +1,24 @@
+{
+  "name": "stuck-circle",
+  "description": "push a circle into a corner",
+  "version": "0.1.0",
+  "main": "stuck-circle.js",
+  "homepage": "https://github.com/tmpvar/stuck-circle",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/tmpvar/stuck-circle.git"
+  },
+  "author": "Elijah Insua <tmpvar@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tmpvar/push a circle into a corner/issues"
+  },
+  "scripts": {
+    "test": "faucet test/test.js",
+    "dev": "nodemon -x 'faucet' -e js,json test/test.js"
+  },
+  "devDependencies": {
+    "faucet": "0.0.1",
+    "tape": "^2.12.3"
+  }
+}
